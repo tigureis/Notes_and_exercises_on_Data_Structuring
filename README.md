@@ -21,8 +21,8 @@ Some Jupyter notebooks developed while stuiding Data Struturing and Categorical 
     - **Date-based filtering:** Filtering by date ranges using `df.loc`, `df.index.between()`, and other relevant methods, allowing for temporal analysis and data extraction within specific time periods.
 * **Plot:** Uses box plots and heatmaps to visualize data and correlations.
 * **Mutual Information:** rank features based on their importance in predicting the target variable
-
-
+* **make_column_transformer** applies different preprocessing steps to specified columns of a dataset.
+* **Pipelines** chain multiple data transformations and/or a model into a single, sequential workflow.
 
 ## Libraries Used
 
@@ -40,5 +40,5 @@ Some Jupyter notebooks developed while stuiding Data Struturing and Categorical 
 
 - **Tips:** A built-in Seaborn dataset containing information about restaurant bills and tips, used for demonstrating encoding techniques and general data filtering operations.
 - **Aircrash:** An external dataset loaded from a URL, containing information about aircraft fatalities and dates, used specifically for illustrating date-based filtering methods.
-- **Titanic:**
+- **Titanic:** Contains information about passengers aboard the Titanic, including demographics and whether they survived.
 
